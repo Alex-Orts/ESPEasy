@@ -416,17 +416,15 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 
 // #define FEATURE_SERVO  1   // Uncomment and set to 0 to explicitly disable SERVO support
 
-
-// #define USES_P001   // Switch
-// #define USES_P002   // ADC
-// #define USES_P003   // Pulse
+#define USES_P001   // Switch
+#define USES_P002   // ADC
+#define USES_P003   // Pulse
 // #define USES_P004   // 1-Wire Temperature (Dallas/Maxim DS18B20)
 // #define USES_P005   // DHT11/12/22 SONOFF2301/7021/MS01
 // #define USES_P006   // BMP085/180
 // #define USES_P007   // PCF8591
 // #define USES_P008   // Wiegand (RFID)
 // #define USES_P009   // MCP23017
-
 // #define USES_P010   // BH1750
 // #define USES_P011   // ProMini Extender
 // #define USES_P012   // LCD2004
@@ -436,21 +434,19 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P017   // PN532
 // #define USES_P018   // GP2Y10
 // #define USES_P019   // PCF8574
-
-// #define USES_P020   // Ser2Net
+#define USES_P020   // Ser2Net
 // #define USES_P021   // Level Control
 // #define USES_P022   // PCA9685
 // #define USES_P023   // OLED SSD1306
 // #define USES_P024   // MLX90614
 // #define USES_P025   // ADS1x15
-// #define USES_P026   // SysInfo
+#define USES_P026   // SysInfo
 // #define USES_P027   // INA219
 // #define USES_P028   // BMx280
 // #define USES_P029   // Domoticz MQTT Helper
-
 // #define USES_P031   // SHT1x
 // #define USES_P032   // MS5611 (GY-63)
-// #define USES_P033   // Dummy Device
+#define USES_P033   // Dummy Device
 // #define USES_P034   // DHT12
 // #define USES_P036   // OLED SSD1306/SH1106 Framed
 // #define P036_FEATURE_DISPLAY_PREVIEW   1 // Enable Preview feature, shows on-display content on Devices overview page
@@ -463,7 +459,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P038   // NeoPixel
 //   #define P038_FEATURE_NEOPIXELFOR 1 // Enable NeoPixelFor/NeoPixelForHSV commands (default enabled for ESP32)
 // #define USES_P039   // Thermocouple
-
 // #define USES_P040   // RFID - ID12LA/RDM6300
 // #define USES_P041   // NeoPixel (Word Clock)
 // #define USES_P042   // NeoPixel (Candle)
@@ -474,7 +469,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P047   // Soil moisture sensor
 // #define USES_P048   // Motoshield v2
 // #define USES_P049   // MH-Z19
-
 // #define USES_P050   // TCS34725 RGB Color Sensor with IR filter and White LED
 // #define USES_P051   // AM2320
 // #define USES_P052   // SenseAir
@@ -485,7 +479,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P057   // HT16K33_LED
 // #define USES_P058   // HT16K33_KeyPad
 // #define USES_P059   // Rotary Encoder
-
 // #define USES_P060   // MCP3221
 // #define USES_P061   // PCF8574 / MCP23017 / PCA8575
 // #define USES_P062   // MPR121
@@ -496,7 +489,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P067   // HX711_Load_Cell
 // #define USES_P068   // SHT3x
 // #define USES_P069   // LM75A
-
 // #define USES_P070   // NeoPixel_Clock
 // #define USES_P071   // Kamstrup401
 // #define USES_P072   // HDC1000/HDC1008/HDC1010/HDC1050/HDC1080
@@ -509,18 +501,16 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P077   // CSE7766 (Sonoff S31, Sonoff POW R2, Sonoff POW R3xx(D), Sonoff Dual R3)
 // #define USES_P078   // Eastron SDMxxx Modbus
 // #define USES_P079   // Wemos / Lolin Motorshield
-
 // #define USES_P080   // iButton Sensor  DS1990A
-// #define USES_P081   // Cron
+#define USES_P081   // Cron
 // #define USES_P082   // GPS
 // #define USES_P083   // SGP30 TVOC
 // #define USES_P084   // VEML6070
 // #define USES_P085   // AcuDC24x
 // #define USES_P086   // Receiving values according Homie convention. Works together with C014 Homie controller
-// #define USES_P087   // Serial Proxy
+#define USES_P087   // Serial Proxy
 // #define USES_P088   // HeatpumpIR
-// #define USES_P089   // Ping
-
+#define USES_P089   // Ping
 // #define USES_P090   // CCS811 TVOC
 // #define USES_P091   // Serial MCU controlled switch
 // #define USES_P092   // DLbus
@@ -531,7 +521,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P097   // ESP32 Touch
 // #define USES_P098   // PWM Motor
 // #define USES_P099   // XPT2046 touchscreen
-
 // #define USES_P100   // DS2423 counter
 // #define USES_P101   // Wake On Lan
 // #define USES_P102   // PZEM-004Tv30-Multiple
@@ -542,7 +531,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P107   // SI1145
 // #define USES_P108   // DDS238-x ZN Modbus energy meters
 // #define USES_P109   // ThermoOLED
-
 // #define USES_P110   // VL53L0X Time of Flight sensor
 // #define USES_P111   // MFRC522 RFID reader
 // #define USES_P112   // AS7265x
@@ -556,7 +544,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P117   // SCD30
 // #define USES_P118   // Itho
 // #define USES_P119   // ITG3205 Gyro
-
 // #define USES_P120   // ADXL345 I2C Acceleration / Gravity
 // #define USES_P121   // HMC5883L
 // #define USES_P122   // SHT2x
@@ -586,7 +573,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P137   // AXP192
 // #define USES_P138   // IP5306
 // #define USES_P139   // AXP2101
-
 // #define USES_P140   // CardKB
 // #define UN_USES_P140   // **DISABLE** I2C CardKB for ESP32 (Enabled by default for ESP32)
 // #define USES_P141   // PCD8544 Nokia 5110 LCD
@@ -595,22 +581,18 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 //   #define P143_FEATURE_INCLUDE_M5STACK      0 // Enabled by default, can be turned off here
 //   #define P143_FEATURE_INCLUDE_DFROBOT      0 // Enabled by default, can be turned off here
 //   #define P143_FEATURE_COUNTER_COLORMAPPING 0 // Enabled by default, can be turned off here
-
 // #define USES_P144   // PM1006(K) (Vindriktning)
 // #define USES_P145   // MQxxx (MQ135 CO2, MQ3 Alcohol)
 // #define USES_P146   // Cache Reader
 // #define USES_P147   // SGP4x
 //   #define P147_FEATURE_GASINDEXALGORITHM    0 // Enabled by default, can be turned off here
 // #define USES_P148   // POWR3xxD/THR3xxD
-
 // #define USES_P150   // TMP117 Temperature
 // #define USES_P151   // Honeywell Pressure
 // #define USES_P152   // ESP32 DAC
 // #define USES_P153   // SHT4x
 // #define USES_P154   // BMP3xx I2C
-
 // #define USES_P159   // Presence - LD2410 Radar detection
-
 // #define USES_P162   // Output - MCP42xxx Digipot
 // #define USES_P163   // Environment - RadSens I2C radiation counter
 // #define USES_P164   // Gases - ENS16x TVOC/eCO2
@@ -619,7 +601,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P167   // Environment - Sensirion SEN5x / Ikea Vindstyrka
 // #define USES_P168   // Light - VEML6030/VEML7700
 // #define USES_P169   // Environment - AS3935 Lightning Detector
-
 // #define USES_P170   // Input - I2C Liquid level sensor
 // #define USES_P172   // BMP3xx SPI.
 // #define USES_P173   // Environment - SHTC3
@@ -627,7 +608,6 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_P176   // Communication - Victron VE.Direct
 // #define USES_P177   // XDB401 I2C Pressure
 // #define USES_P178   // LU9685 Servo controller
-
 // #define USES_P180   // I2C Generic
 
 /*
@@ -641,15 +621,15 @@ static const char DATA_ESPEASY_DEFAULT_MIN_CSS[] PROGMEM = {
 // #define USES_C002   // Domoticz MQTT
 // #define USES_C003   // Nodo telnet
 // #define USES_C004   // ThingSpeak
-// #define USES_C005   // Home Assistant (openHAB) MQTT
+#define USES_C005   // Home Assistant (openHAB) MQTT
 // #define USES_C006   // PiDome MQTT
 // #define USES_C007   // Emoncms
 // #define USES_C008   // Generic HTTP
 // #define USES_C009   // FHEM HTTP
 // #define USES_C010   // Generic UDP
-// #define USES_C011   // Generic HTTP Advanced
+#define USES_C011   // Generic HTTP Advanced
 // #define USES_C012   // Blynk HTTP
-// #define USES_C013   // ESPEasy P2P network
+#define USES_C013   // ESPEasy P2P network
 // #define USES_C014   // homie 3 & 4dev MQTT
 // #define USES_C015   // Blynk
 // #define USES_C016   // Cache controller
